@@ -24,9 +24,11 @@ a
 .button
 {
 	font-size:10px;
+  margin-right:10px;
 	font-family:Comic Sans;
-	border-radius: 4px 4px 4px 4px;
-
+	border-radius: 2px;
+color:orange;
+padding:10px;
 }
 
 
@@ -143,14 +145,27 @@ img {vertical-align: middle;}
 }
 
 
-
+.header {
+    padding: 15px;
+}
+.menu {
+    width: 20%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+.main {
+    width: 20%;
+    float: left;
+    padding: 15px;
+    
+}
 
 
 </style>
-<body>
+<body style="background-color:gray">
 
-
-
+<div>
 <div class="slideshow-container">
 
 <div class="mySlides fade">
@@ -169,7 +184,7 @@ img {vertical-align: middle;}
 	<a href="">CONTACT</a> 
 </div>
 </nav></div>
-  <img src="image/good.jpg" style="width:100%; height:100%">
+  <img src="image/good.jpg" style="width:100%; height:auto;">
    <div class="reg">
   	<i>Digital Experience Creation</i>
   	<p style="font-size:22px">We take <span style="color:lightblue">digital experiences</span></p>
@@ -186,7 +201,7 @@ img {vertical-align: middle;}
 </div>
 </div>
 
-<div class="mySlides fade">
+<div class="mySlides fade" style="width:100%">
   <div class="numbertext"><nav>
 
 	<div class="float_left">
@@ -257,22 +272,37 @@ img {vertical-align: middle;}
 
 </div>
 <br/>
-<div align="center"><p style="color:skyblue">What We Offer</p>
-	<h1>Our Services</h1>
-	<div> 
-		Design
-	</div>
-<div>
-	Layout
-	
+
+
+
+<div class="header" align="center"><p style="color:skyblue">What We Offer</p>
+  <h1>Our Services</h1>
 </div>
 
+<div class="main" style="margin-left:300px; padding-right:70px">
+  <img src="image/d.png"><br>
+    Design
+    <p>Duis aute irure dolor in reprehenderit in <br>voluptate velit esse cillum dolore eu <br>fugiat nulla pariatur.</p>
+  <img src="image/d4.png"><br>
+  Layout
+  <p>Duis aute irure dolor in reprehenderit in<br> voluptate velit esse cillum dolore eu fugiat <br>nulla pariatur</p>
+  
 </div>
 
+<div class="main" style="background-image:url(image/light.jpg); height: 379px; width: 250px;">
+  <p align="center" style="margin-top:119px;font-size: 25px;">Ready to<br>
+Get Started With <br>ThemeMax?<br><button class="button" style="margin-top:50px;">CONTACT NOW</button></p>
+</div>
 
-
-
-
+<div class="main" style="padding-left:100px">
+<img src="image/d.png"><br>
+  Design
+    <p>Duis aute irure dolor in reprehenderit in <br>voluptate velit esse cillum dolore eu <br>fugiat nulla pariatur.</p>
+    <img src="image/d4.png"><br>
+  Layout
+  <p>Duis aute irure dolor in reprehenderit in<br> voluptate velit esse cillum dolore eu fugiat <br>nulla pariatur</p>
+</div>
+</div>
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
